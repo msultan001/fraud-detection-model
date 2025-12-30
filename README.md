@@ -109,10 +109,17 @@ Our latest progress includes both Task 2a and Task 2b requirements:
 - **Task 2b (Ensemble)**: Developed a tuned Random Forest model with 5-fold Stratified Cross-Validation.
 - **Evaluation**: Comprehensive comparison of models using AUC-PR, F1-Score, and reporting mean/std across CV folds.
 
+## Task 3: Model Explainability (Completed)
+Our model interpretation phase (Task 3) is complete, featuring:
+- **Global Interpretability**: SHAP Summary plots showing feature impact across the entire dataset.
+- **Local Interpretability**: Detailed explanations for True Positive, False Positive, and False Negative predictions.
+- **Business Insights**: Developed 4 key actionable recommendations for fraud prevention based on model drivers like `time_since_signup`.
+
+All Task 3 artifacts are available on the `task-3` branch.
+
 ## Next Steps
-1. Model explainability using SHAP or LIME
-2. API development for real-time fraud prediction
-3. Containerization for deployment
+1. API development for real-time fraud prediction
+2. Containerization for deployment
 4. Continuous integration and monitoring
 
 ## Contributors
